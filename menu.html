@@ -1,0 +1,178 @@
+<!-- 
+  Project Contributors:
+  - Design (HTML, CSS, DOM): Ramadan Masadekh 
+  - JavaScript Functions (JS Logic): Brandon Pike 
+  - UI/UX & Wireframes (Figma Design): Brady Keats 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Always set up the title and link to
+         the style sheet up front. -->
+    <title>Sunny Bites Cafe | Menu</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="a.js"></script>
+  </head>
+  <body>
+    <div class="mainbox">
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#review">Reviews</a></li>
+        </ul>
+      </nav>
+
+      <!-- Top container -->
+      <section class="top-container">
+        <header class="showcase menu-showcase" id="header">
+          <div class="showcasebox">
+            <h1>Our Delicious Menu</h1>
+            <p>Healthy, organic meals made with love</p>
+          </div>
+        </header>
+      </section>
+
+      <!-- Menu Section -->
+      <section class="protofolio">
+        <div
+          class="menuitem"
+          data-name="Grilled Salmon with Rice & Greens"
+          data-price="12.99"
+        >
+          <img src="img/menu/1.jpg" alt="Grilled Salmon with Rice & Greens" />
+          <h3>Grilled Salmon with Rice & Greens</h3>
+          <p>
+            Freshly grilled salmon fillet seasoned with a blend of herbs and
+            lemon, served over a bed of steamed jasmine rice and a side of fresh
+            greens.
+          </p>
+          <p class="price">$12.99</p>
+          <button class="add-to-order">Add to Order</button>
+        </div>
+
+        <div
+          class="menuitem"
+          data-name="Veggie Omelette with Toasted Bread"
+          data-price="7.99"
+        >
+          <img src="img/menu/2.jpg" alt="Veggie Omelette with Toasted Bread" />
+          <h3>Veggie Omelette with Toasted Bread</h3>
+          <p>
+            Fluffy omelette filled with bell peppers, spinach, and cheese,
+            served with crispy roasted potatoes, fresh salad, and toasted
+            sourdough bread.
+          </p>
+          <p class="price">$7.99</p>
+          <button class="add-to-order">Add to Order</button>
+        </div>
+
+        <div
+          class="menuitem"
+          data-name="Classic Chicken Shawarma Wrap"
+          data-price="8.99"
+        >
+          <img src="img/menu/3.jpg" alt="Classic Chicken Shawarma Wrap" />
+          <h3>Classic Chicken Shawarma Wrap</h3>
+          <p>
+            Juicy marinated chicken wrapped in warm pita bread with garlic
+            sauce, fresh lettuce, tomatoes, and pickles. Served with a side of
+            creamy yogurt dip.
+          </p>
+          <p class="price">$8.99</p>
+          <button class="add-to-order">Add to Order</button>
+        </div>
+
+        <div
+          class="menuitem"
+          data-name="Mixed Grill Platter"
+          data-price="14.99"
+        >
+          <img src="img/menu/11.jpg" alt="Mixed Grill Platter" />
+          <h3>Mixed Grill Platter</h3>
+          <p>
+            A delicious combination of grilled lamb chops, chicken skewers, and
+            beef kebabs, served with roasted potatoes and grilled vegetables.
+          </p>
+          <p class="price">$14.99</p>
+          <button class="add-to-order">Add to Order</button>
+        </div>
+
+        <div
+          class="menuitem"
+          data-name="Spicy Penne Pasta with Herbs"
+          data-price="9.99"
+        >
+          <img src="img/menu/10.jpg" alt="Spicy Penne Pasta with Herbs" />
+          <h3>Spicy Penne Pasta with Herbs</h3>
+          <p>
+            Al dente penne pasta tossed in a blend of Mediterranean herbs, olive
+            oil, cherry tomatoes, and red chili flakes for a spicy kick.
+          </p>
+          <p class="price">$9.99</p>
+          <button class="add-to-order">Add to Order</button>
+        </div>
+
+        <div
+          class="menuitem"
+          data-name="Quinoa & Fresh Veggie Salad"
+          data-price="7.99"
+        >
+          <img src="img/menu/9.jpg" alt="Quinoa & Fresh Veggie Salad" />
+          <h3>Quinoa & Fresh Veggie Salad</h3>
+          <p>
+            A healthy and vibrant salad made with quinoa, cucumbers, cherry
+            tomatoes, shredded carrots, broccoli, and bell peppers.
+          </p>
+          <p class="price">$7.99</p>
+          <button class="add-to-order">Add to Order</button>
+        </div>
+      </section>
+
+      <script src="qap2.js"></script>
+
+      <footer>
+        <div class="footerboxright">
+          <div>
+            <p>Ramadan &copy;2025</p>
+          </div>
+          <div class="footerboxmidsec2">
+            <p>
+              <i class="fa-brands fa-facebook"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-solid fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-twitter"></i>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

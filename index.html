@@ -1,0 +1,146 @@
+<!-- 
+  Project Contributors:
+  - Design (HTML, CSS, DOM): Ramadan Masadekh 
+  - JavaScript Functions (JS Logic): Brandon Pike 
+  - UI/UX & Wireframes (Figma Design): Brady Keats 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Always set up the title and link to
+         the style sheet up front. -->
+    <title>Sunny Bites Cafe | Home</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JavaScript -->
+    <script src="a.js"></script>
+  </head>
+  <body>
+    <div class="mainbox">
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#review">Reviews</a></li>
+        </ul>
+      </nav>
+      <!-- Top container -->
+      <section class="top-container">
+        <header class="showcase home-showcase" id="header">
+          <div class="showcasebox">
+            <h1>Welcome to Sunny Bites Cafe</h1>
+            <p>Where taste meels health!</p>
+            <a href="menu.html">
+              <button class="btn">View Menue</button>
+            </a>
+            <a href="order.html">
+              <button class="btn">Order Online</button>
+            </a>
+          </div>
+        </header>
+      </section>
+
+      <!-- »About section -->
+      <section id="about" class="info">
+        <div>
+          <h2>About Us</h2>
+          Welcome to <strong>Sunny Bites Café</strong>, a cozy, family-owned
+          café that specializes in healthy, organic meals and beverages. Our
+          mission is to provide fresh, high-quality food in a warm and welcoming
+          atmosphere. Whether you're looking for a morning coffee, a delicious
+          lunch, or a place to relax, we've got you covered!
+        </div>
+
+        <h2>Visit Us</h2>
+        <p>
+          We’d love to welcome you to <strong>Sunny Bites Café</strong>! Stop by
+          for a fresh cup of coffee and a delicious meal. Here’s where you can
+          find us:
+        </p>
+
+        <div>
+          <div>
+            <h3>📍 Location</h3>
+            <p>123 Sunshine Street, St.John's, NL</p>
+          </div>
+
+          <div>
+            <h3>⏰ Hours</h3>
+            <p>Monday - Friday: 7 AM - 8 PM</p>
+            <p>Saturday - Sunday: 8 AM - 10 PM</p>
+          </div>
+          <div id="contact">
+            <h3>📞 Contact</h3>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@sunnybites.com</p>
+          </div>
+        </div>
+        <!-- Customer Reviews -->
+        <div id="review">
+          <h2>What Our Customers Say</h2>
+          <div>
+            <p>
+              "The best café in town! The food is fresh and delicious, and the
+              staff is super friendly!"
+            </p>
+            <h4>- Sarah Johnson</h4>
+          </div>
+          <div>
+            <p>
+              "I absolutely love the organic meals here. A must-visit for anyone
+              looking for healthy food!"
+            </p>
+            <h4>- Mark Thompson</h4>
+          </div>
+          <div>
+            <p>
+              "A cozy and welcoming café with amazing coffee and pastries.
+              Highly recommend!"
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footerboxright">
+          <div>
+            <p>Ramadan &copy;2025</p>
+          </div>
+          <div class="footerboxmidsec2">
+            <p>
+              <i class="fa-brands fa-facebook"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-solid fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-twitter"></i>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
