@@ -1,7 +1,7 @@
 // Project Contributors:
 // - Design (HTML, CSS, DOM): Ramadan Masadekh
-// - JavaScript Functions (JS Logic): Brandon Pike
-// - UI/UX & Wireframes (Figma Design): Brady Keats
+// - JavaScript Functions: Brandon Pike
+// - UI/UX & Wireframes (Figma Design): Ramadan Masadekh
 
 document.addEventListener("DOMContentLoaded", function () {
   // Mobile Navigation Toggle
