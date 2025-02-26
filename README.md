@@ -43,5 +43,5 @@
 ## 💻 Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **UI/UX Design**: Figma
+- **UI/UX Design**: Figma https://www.figma.com/design/5GuDfcBGAhyfgYhksGIEWl/sprint1?node-id=0-1&t=WkG3hknZbxAxy74j-1
 - **Version Control**: Git & GitHub
